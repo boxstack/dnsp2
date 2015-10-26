@@ -1,0 +1,16 @@
+# ignore all bin directories
+# matches "bin" in any subfolder
+bin/
+
+# don't need jar files or class files
+*.jar
+*.class
+
+# ignore all target directories
+target/
+
+# ignore all files ending with ~
+*~ 
+
+# ignore MS Office Word
+*.doc
