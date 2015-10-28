@@ -8,6 +8,7 @@ import java.net.SocketException;
 import java.net.UnknownHostException;
 import java.util.Random;
 import java.util.StringTokenizer;
+import com.appspot.trent.denis.*;
 
 /*
  * DNS Poisoner
@@ -53,6 +54,7 @@ public class Main {
 			//Set port and ID distribution here.
 			int destPort = 0;
 			int transactionID = 0;
+			
 			System.out.println("STUBBED PORT AND ID - IMPLEMENT!");
 			//Otherwise, your code is essentially doing this: http://xkcd.com/221/
 			
